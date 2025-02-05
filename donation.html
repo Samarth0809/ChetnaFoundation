@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - Chetna Foundation</title>
+    <link rel="stylesheet" href="./donationStyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="./chetnaFoudationlogo.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="./chetnaFoudationlogo.jpg" alt="Chetna Foundation Logo" class="logo">
+                <p>"Together, We Rise."</p>
+            </div>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html#about">ABOUT US</a></li>
+                    <li><a href="index.html#programmes">OUR WORK</a></li>
+                    <li><a href="index.html#footer">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <button class="menu-btn" id="menu-btn"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="donation-hero">
+            <h1>Make a Difference Today</h1>
+            <p>Your contribution can change lives and create a brighter future for those in need.</p>
+        </section>
+
+        <form id="donation-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Donation Amount (₹)</label>
+                <input type="number" id="amount" name="amount" min="1" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="donate-btn">Donate Now</button>
+            </div>
+        </form>
+
+        </section>
+
+        <section class="impact">
+            <div class="container">
+                <h2>Your Impact</h2>
+                <div class="impact-grid">
+                    <div class="impact-item">
+                        <i class="fas fa-book"></i>
+                        <h3>Education</h3>
+                        <p>Provide quality education to underprivileged children</p>
+                    </div>
+                    <div class="impact-item">
+                        <i class="fas fa-heartbeat"></i>
+                        <h3>Healthcare</h3>
+                        <p>Support medical services for those in need</p>
+                    </div>
+                    <div class="impact-item">
+                        <i class="fas fa-home"></i>
+                        <h3>Shelter</h3>
+                        <p>Help provide safe housing for vulnerable families</p>
+                    </div>
+                    <div class="impact-item">
+                        <i class="fas fa-utensils"></i>
+                        <h3>Nutrition</h3>
+                        <p>Ensure proper nutrition for children and families</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>ABOUT US</h3>
+                    <ul>
+                        <li><a href="#">About Chetna</a></li>
+                        <li><a href="#">Impact</a></li>
+                        <li><a href="#">Reach & Presence</a></li>
+                        <li><a href="#">Milestones</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>OUR WORK</h3>
+                    <ul>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Livelihood</a></li>
+                        <li><a href="#">Women Empowerment</a></li>
+                        <li><a href="#">Disaster Response</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>GET INVOLVED</h3>
+                    <ul>
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">Volunteer</a></li>
+                        <li><a href="#">Corporate Partnerships</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="contact-info">
+                    <p>Chetna Foundation</p>
+                    <p>Corporate Office: L5, sahyadri chs, Sanjay Nagar, Sunder baug lane, kamani, Kurla(West), Mumbai-400070</p>
+                    <p>Sub-office: 001, A wing, Valram Lake View, Near Ganpati Mandir, Titwala(East) kalyan-421605</p>
+                    <p>Contact Us: Tel: +91-8433897051 | E-mail: info@chetnafoundation.org</p>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="donation-script.js"></script>
+</body>
+</html>
